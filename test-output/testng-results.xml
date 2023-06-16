@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T15:47:10 IST" name="Default suite" finished-at="2023-06-02T15:47:18 IST" duration-ms="7528">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T15:47:10 IST" name="Default test" finished-at="2023-06-02T15:47:18 IST" duration-ms="7528">
+      <class name="sample.TestSample">
+        <test-method is-config="true" signature="config()[pri:0, instance:sample.TestSample@41d477ed]" started-at="2023-06-02T15:47:10 IST" name="config" finished-at="2023-06-02T15:47:10 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="setup()[pri:0, instance:sample.TestSample@41d477ed]" started-at="2023-06-02T15:47:10 IST" name="setup" finished-at="2023-06-02T15:47:18 IST" duration-ms="7191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="rk(org.testng.ITestResult)[pri:0, instance:sample.TestSample@41d477ed]" started-at="2023-06-02T15:47:18 IST" name="rk" finished-at="2023-06-02T15:47:18 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setup status=SUCCESS method=TestSample.setup()[pri:0, instance:sample.TestSample@41d477ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rk -->
+      </class> <!-- sample.TestSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
